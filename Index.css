@@ -1,0 +1,336 @@
+body {
+    margin: 0px 0px 40px 0px;
+    /*    border: 10px solid black;*/
+}
+
+
+
+
+/*** * NAV START * ***/
+
+header {
+    position: fixed;
+    width: 100%;
+    padding: 0;
+}
+
+header p {
+    font-family: 'Roboto Mono', monospace;
+    text-align: right;
+    font-size: 3em;
+    padding: 0 0 0 5px;
+}
+
+header nav {
+    font-family: 'Roboto Mono', monospace;
+    text-align: right;
+    margin: 10px 10px 0 0;
+    text-transform: uppercase;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #070706;
+    padding-left: 4px;
+    display: block;
+}
+
+header nav a:hover {
+    color: aliceblue;
+}
+
+header nav a {
+    display: block;
+}
+
+@media screen and (max-width: 676px) {
+    header nav a {
+        display: block;
+    }
+}
+
+
+/*** * NAV END * ***/
+
+/*** * MEDIA START * ***/
+
+#splash {
+    background-image: url(billeder/splash2.jpg);
+    width: 100vw;
+    height: 35vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+
+}
+
+
+
+/*** * MEDIA SLUT * ***/
+
+/*** * Typografi start * ***/
+
+h1 {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
+    font-size: 3em;
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+
+}
+
+h2 {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
+    font-size: 1.9em;
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
+    font-size: 1.2em;
+    padding: 20px;
+}
+
+h4 {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
+    font-size: 1.2em;
+    padding: 20px;
+}
+
+p {
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    font-size: 1.2em;
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+}
+
+
+/*** * Typografi slut * ***/
+
+/* *** OM start *** */
+
+#om .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#om .column {
+    flex-basis: 400px;
+    flex-grow: 1;
+    margin: 0;
+    padding: 10px;
+
+
+}
+
+#om img {
+    width: 25vw;
+    height: 35vw;
+    text-align: center;
+
+}
+
+#om .imgcolumn {
+    flex-basis: 200px;
+    flex-grow: 1;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+}
+
+
+/* *** OM slut *** */
+
+/* *** html start *** */
+
+#html .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#html .column {
+    flex-basis: 100px;
+    flex-grow: 1;
+    /*    height: 100%;*/
+    /*
+    padding: 0 0em 1em;
+    margin: 0;
+*/
+}
+
+/*
+#html .column_content {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+
+}
+
+#html .top {
+    align-self: flex-start;
+    flex-basis: auto;
+    flex-grow: 1;
+
+}
+
+#html .bottom {
+    flex-basis: auto;
+    align-self: flex-end;
+    flex-grow: 2;
+    justify-content: center;
+    text-align: center;
+
+}
+*/
+
+/* *** html slut *** */
+
+/* *** video start *** */
+
+#video .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+}
+
+#video .column_first {
+    flex-basis: 400px;
+    flex-grow: 2;
+}
+
+#video .column_second {
+    flex-basis: 400px;
+    flex-grow: 2;
+    text-align: center;
+
+
+}
+
+#video h2 {
+
+    text-align: center;
+}
+
+#video .column_content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#video .top {
+    align-self: flex-end;
+    flex-basis: 400px;
+    /*    border-bottom: 1px solid black;*/
+    padding: 15px;
+}
+
+#video .bottom {
+    align-self: center;
+    margin: 15px;
+}
+
+
+
+
+/* *** video slut *** */
+
+/* *** Animation start *** */
+
+#Animation .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#Animation .column_first {
+    flex-basis: 200px;
+    flex-grow: 2;
+    padding-left: 20px;
+}
+
+#Animation .column_second {
+    flex-basis: 400px;
+    flex-grow: 1;
+    padding: 10px;
+    justify-content: center;
+}
+
+#Animation .column_content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#Animation .colors {
+    flex-basis: 400px;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+#Animation .content {
+    flex-basis: 400px;
+    flex-grow: 2;
+}
+
+#animation img {
+    width: 100vw;
+    height: 65vw;
+}
+
+#animation a {
+    align-self: center;
+}
+
+#animation .bottom {
+    flex-basis: 400px;
+    align-self: flex-start;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+
+/* *** Animation slut *** */
+
+/* ux start *** */
+
+#ux .sectionswrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#ux .content {
+    flex-basis: 100px;
+    flex-grow: 1;
+}
+
+
+/* *** ux slut *** */
+
+/*** Sex og samfund Start *** */
+
+#sexogsamfund .sectionswrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#sexogsamfund .content {
+    flex-basis: 100px;
+    flex-grow: 1;
+}
+
+/* *** ss slut *** */
+
+footer {
+    text-align: center;
+}
